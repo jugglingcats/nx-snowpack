@@ -26,9 +26,8 @@
     "site": {
       "tags": []
     },
-    "site-e2e": {
-      "tags": [],
-      "implicitDependencies": ["site"]
+    "mylib": {
+      "tags": []
     }
   }
 }

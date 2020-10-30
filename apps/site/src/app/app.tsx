@@ -1,9 +1,7 @@
 import React from 'react';
 
 import './app.css';
-
-import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
+import {Mylib} from 'mylib';
 
 export const App = () => {
   /*
@@ -14,8 +12,8 @@ export const App = () => {
   return (
     <div className="app">
       <header className="flex">
-        <Logo width="75" height="75" />
         <h1>Welcome to site!</h1>
+        <Mylib/>
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>
@@ -29,7 +27,6 @@ export const App = () => {
             {' '}
             If you like Nx, please give it a star:
             <div className="github-star-badge">
-              <img src={star} className="material-icons" alt="" />
               Star
             </div>
           </a>
