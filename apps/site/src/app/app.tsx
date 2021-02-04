@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './app.css';
-import {Mylib} from 'mylib';
+import { Mylib } from '@nx-snowpack/mylib';
 
 export const App = () => {
   /*
@@ -13,9 +13,9 @@ export const App = () => {
     <div className="app">
       <header className="flex">
         <h1>Welcome to site!</h1>
-        <Mylib/>
       </header>
       <main>
+        <Mylib/>
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>
         <div className="flex github-star-container">

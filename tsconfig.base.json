@@ -16,8 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-snowpack/mylib": ["libs/mylib/src/index.ts"],
-      "mylib": ["libs/mylib/src/index.ts"]
+      "@nx-snowpack/mylib": ["libs/mylib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

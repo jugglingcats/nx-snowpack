@@ -8,7 +8,7 @@ export interface MylibProps {}
 export const Mylib = (props: MylibProps) => {
   return (
     <div>
-      <h1>Welcome to mylib!</h1>
+      <h1>THIS IS FROM COMPONENT IN MYLIB!!</h1>
     </div>
   );
 };

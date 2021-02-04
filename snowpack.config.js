@@ -2,7 +2,6 @@ module.exports = {
   mount: {
     "apps/site/src": '/',
     "libs/mylib/src": '/mylib',
-    src: '/_dist_',
   },
   plugins: [
     '@snowpack/plugin-react-refresh',
@@ -25,6 +24,6 @@ module.exports = {
     /* ... */
   },
   alias: {
-    "@nx-snowpack/mylib": "./libs/mylib"
+    "@nx-snowpack/mylib": "./libs/mylib/src/index.ts"
   },
 };
