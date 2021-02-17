@@ -46,9 +46,9 @@
           }
         },
         "serve": {
-          "builder": "@nrwl/web:dev-server",
+          "builder": "@nrwl/workspace:run-commands",
           "options": {
-            "buildTarget": "site:build"
+            "command": "snowpack dev"
           },
           "configurations": {
             "production": {
